@@ -9,7 +9,7 @@ function http_request($url){
     return $output;
 }
 
-$profile = http_request("https://api-pedatren.nuruljadid.dev/santri");
+$profile = http_request("https://api.github.com/users/petanikode");
 $profile = json_decode($profile, TRUE);
 ?>
 
